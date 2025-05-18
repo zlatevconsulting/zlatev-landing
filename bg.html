@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html lang="bg">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Zlatev Consulting | Продажбена автоматизация</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zlatev Consulting</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    function showForm() {
+      document.getElementById('quote').scrollIntoView({ behavior: 'smooth' });
+      document.getElementById('formWrapper').classList.remove('hidden');
+    }
+  </script>
 </head>
 <body class="bg-white text-gray-800">
 
@@ -17,14 +23,14 @@
   <section class="bg-gray-100 py-20 px-4 text-center">
     <h1 class="text-3xl md:text-5xl font-bold mb-4">Без разговори. Попълни въпросник → Получи оферта → Плати след като сме готови.</h1>
     <p class="text-lg md:text-xl mb-6">Автоматизираме процеса ти по продажби, за да спестиш време, разходи и хаос.</p>
-    <a href="#quote" class="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg hover:bg-blue-700">Виж своята цена</a>
+    <button onclick="showForm()" class="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg hover:bg-blue-700">Виж своята цена</button>
   </section>
 
   <!-- Quote Form Section -->
   <section id="quote" class="py-20 px-4 text-center bg-gray-50">
-    <h3 class="text-2xl font-semibold mb-6">Попълни въпросника по-долу и ще получиш персонализирана оферта</h3>
-    <div class="max-w-3xl mx-auto">
-      <iframe data-tally-src="https://tally.so/embed/your-form-id-here?alignLeft=1&hideTitle=1&transparentBackground=1" loading="lazy" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0" title="Quote Form"></iframe>
+    <h3 class="text-2xl font-semibold mb-6">Намали разходите и автоматизирай продажбите – разкажи ни за своя бизнес</h3>
+    <div id="formWrapper" class="max-w-3xl mx-auto hidden">
+      <iframe src="https://tally.so/embed/mYydA6?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0" title="Quote Form"></iframe>
     </div>
   </section>
 
