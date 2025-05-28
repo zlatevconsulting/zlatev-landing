@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мини Fix Пакет – 290 € | Zlatev Consulting</title>
+  <meta name="description" content="Бързо решение на един ясен проблем в търговския процес. Без излишни разговори.">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+
+  <div class="text-right p-4">
+    <a href="/bg.html" class="text-sm text-blue-600 underline">← Назад към сайта</a>
+  </div>
+
+  <section class="py-16 px-4 text-center bg-gray-100">
+    <h1 class="text-4xl font-bold mb-4">Мини Fix Пакет – 290 €</h1>
+    <p class="text-xl max-w-2xl mx-auto">Бърза помощ за един конкретен проблем. Получавате точна намеса без излишно губене на време.</p>
+  </section>
+
+  <section class="py-16 px-4 max-w-4xl mx-auto grid md:grid-cols-2 gap-12">
+    <div>
+      <h2 class="text-2xl font-semibold mb-4">За кого е</h2>
+      <p>Компании, които вече използват CRM или имат процес, но се сблъскват с конкретен блокиращ проблем.</p>
+    </div>
+    <div>
+      <h2 class="text-2xl font-semibold mb-4">Какво включва</h2>
+      <ul class="list-disc list-inside space-y-2 text-left">
+        <li>Анализ на текущото състояние и целта</li>
+        <li>1 среща (60 минути) за идентифициране и планиране</li>
+        <li>Реализация на решението (конфигурация, автоматизация или подобрение)</li>
+        <li>Видео обяснение или кратък наръчник как да го използвате</li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="text-2xl font-semibold mb-4">Резултати, които ще получите</h2>
+      <ul class="list-disc list-inside space-y-2 text-left">
+        <li>Решен конкретен проблем, който ви бави</li>
+        <li>По-добра ефективност и яснота</li>
+        <li>Незабавна стойност с малка инвестиция</li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="text-2xl font-semibold mb-4">Срок на изпълнение</h2>
+      <p>До 3 работни дни след срещата</p>
+    </div>
+  </section>
+
+  <section class="py-16 px-4 text-center">
+    <h2 class="text-2xl font-bold mb-4">Да оправим проблема ви заедно</h2>
+    <p class="mb-6">Натиснете бутона по-долу, за да поръчате Мини Fix Пакет.</p>
+    <a href="mailto:stoyan@zlatevconsulting.com?subject=Мини Fix Пакет" class="bg-blue-600 text-white px-8 py-3 rounded-lg text-lg hover:bg-blue-700">Поръчай</a>
+  </section>
+
+  <section class="py-8 px-4 text-center">
+    <a href="/mini-fix.html" class="text-sm text-blue-600 underline">View in English →</a>
+  </section>
+
+</body>
+</html>
