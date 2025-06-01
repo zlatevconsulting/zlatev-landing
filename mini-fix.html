@@ -6,6 +6,12 @@
   <title>Mini Fix Pack – €290 | Zlatev Consulting</title>
   <meta name="description" content="The Mini Fix Pack is designed to solve one painful bottleneck in your sales process fast — CRM glitch, process mess, or lead tracking confusion.">
   <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    function showForm() {
+      document.getElementById('formWrapper').classList.remove('hidden');
+      document.getElementById('formWrapper').scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
 </head>
 <body class="bg-white text-gray-800">
 
@@ -56,8 +62,16 @@
   <section class="py-16 px-4 text-center">
     <h2 class="text-2xl font-bold mb-4">Let’s fix what’s broken</h2>
     <p class="mb-6">Click below to book your Mini Fix. It starts with clarity.</p>
-    <a href="mailto:stoyan@zlatevconsulting.com?subject=Mini Fix Pack" class="bg-blue-600 text-white px-8 py-3 rounded-lg text-lg hover:bg-blue-700">Book This Package</a>
+    <button onclick="showForm()" class="bg-blue-600 text-white px-8 py-3 rounded-lg text-lg hover:bg-blue-700">Book This Package</button>
+  </section>
+
+  <section id="formWrapper" class="hidden py-16 px-4 text-center bg-gray-50">
+    <h3 class="text-xl font-semibold mb-4">Please fill out this short form to get started</h3>
+    <div class="max-w-3xl mx-auto">
+      <iframe src="https://tally.so/embed/wgr4Vd?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0" title="Mini Fix Form"></iframe>
+    </div>
   </section>
 
 </body>
 </html>
+
