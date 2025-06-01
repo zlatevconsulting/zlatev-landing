@@ -4,8 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CRM Старт – 490 € | Zlatev Consulting</title>
-  <meta name="description" content="Внедряване на CRM и автоматизация за екипи, които използват Excel.">
+  <meta name="description" content="Внедряване на CRM за екипи, които работят в Excel. Автоматизация и подреден процес без хаос.">
   <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    function showForm() {
+      document.getElementById('formWrapper').classList.remove('hidden');
+      document.getElementById('formWrapper').scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
 </head>
 <body class="bg-white text-gray-800">
 
@@ -15,43 +21,49 @@
 
   <section class="py-16 px-4 text-center bg-gray-100">
     <h1 class="text-4xl font-bold mb-4">CRM Старт – 490 €</h1>
-    <p class="text-xl max-w-2xl mx-auto">Внедряване на CRM + автоматизация за екипи, които използват Excel. Идеален за старт на дигитализацията в продажбите.</p>
+    <p class="text-xl max-w-2xl mx-auto">Подреден процес с CRM вместо хаос в Excel файлове. Ясен старт, бърза реализация и видимост върху продажбите.</p>
   </section>
 
   <section class="py-16 px-4 max-w-4xl mx-auto grid md:grid-cols-2 gap-12">
     <div>
       <h2 class="text-2xl font-semibold mb-4">За кого е</h2>
-      <p>Екипи, които все още използват Excel за следене на клиенти и продажби. Компании с до 5 търговци, без CRM или със слаб процес.</p>
+      <p>Екипи, които работят в Excel и се затрудняват с проследяване, комуникация и задачи. Идеален за първа стъпка към автоматизация.</p>
     </div>
     <div>
       <h2 class="text-2xl font-semibold mb-4">Какво включва</h2>
       <ul class="list-disc list-inside space-y-2 text-left">
-        <li>Инсталация и настройка на CRM</li>
-        <li>Изграждане на pipeline и етикети</li>
-        <li>2 автоматизации (напр. напомняния и статуси)</li>
-        <li>Онбординг на екипа</li>
-        <li>Поддръжка 14 дни след внедряване</li>
+        <li>Анализ на текущия процес</li>
+        <li>Избор на подходящ CRM инструмент</li>
+        <li>Изграждане на pipeline + задачи и фази</li>
+        <li>Обучение за екипа</li>
+        <li>1 месец email поддръжка</li>
       </ul>
     </div>
     <div>
       <h2 class="text-2xl font-semibold mb-4">Резултати, които ще получите</h2>
       <ul class="list-disc list-inside space-y-2 text-left">
-        <li>Проследими сделки и клиенти</li>
-        <li>По-малко изгубени възможности</li>
-        <li>Първи стъпки към автоматизация</li>
-        <li>Обучен екип, който използва системата</li>
+        <li>Ясна структура и последователност</li>
+        <li>Проследимост на всички сделки и действия</li>
+        <li>Облекчена комуникация и отчетност</li>
       </ul>
     </div>
     <div>
       <h2 class="text-2xl font-semibold mb-4">Срок на изпълнение</h2>
-      <p>Старт до 1–2 дни. Общо внедряване в рамките на 5 работни дни.</p>
+      <p>5–7 работни дни след одобрение</p>
     </div>
   </section>
 
   <section class="py-16 px-4 text-center">
-    <h2 class="text-2xl font-bold mb-4">Готови ли сте за CRM?</h2>
-    <p class="mb-6">Натиснете бутона по-долу, за да поръчате CRM Старт.</p>
-    <a href="mailto:stoyan@zlatevconsulting.com?subject=CRM%20Старт" class="bg-blue-600 text-white px-8 py-3 rounded-lg text-lg hover:bg-blue-700">Поръчай</a>
+    <h2 class="text-2xl font-bold mb-4">Готови ли сте да стартирате?</h2>
+    <p class="mb-6">Натиснете бутона по-долу, за да заявите този пакет.</p>
+    <button onclick="showForm()" class="bg-blue-600 text-white px-8 py-3 rounded-lg text-lg hover:bg-blue-700">Поръчай този пакет</button>
+  </section>
+
+  <section id="formWrapper" class="hidden py-16 px-4 text-center bg-gray-50">
+    <h3 class="text-xl font-semibold mb-4">Моля, попълнете формуляра, за да продължим</h3>
+    <div class="max-w-3xl mx-auto">
+      <iframe src="https://tally.so/embed/mYydA6?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0" title="Quote Form"></iframe>
+    </div>
   </section>
 
   <section class="py-8 px-4 text-center">
