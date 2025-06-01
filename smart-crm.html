@@ -6,6 +6,12 @@
   <title>Smart CRM Launch – €490 | Zlatev Consulting</title>
   <meta name="description" content="Smart CRM Launch is for small teams ready to ditch spreadsheets. We’ll set up your CRM, automate follow-ups, and train your team.">
   <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    function showForm() {
+      document.getElementById('formWrapper').classList.remove('hidden');
+      document.getElementById('formWrapper').scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
 </head>
 <body class="bg-white text-gray-800">
 
@@ -59,8 +65,16 @@
   <section class="py-16 px-4 text-center">
     <h2 class="text-2xl font-bold mb-4">Ready to work smarter?</h2>
     <p class="mb-6">Click below to get started — no calls, just action.</p>
-    <a href="mailto:stoyan@zlatevconsulting.com?subject=Smart CRM Launch" class="bg-blue-600 text-white px-8 py-3 rounded-lg text-lg hover:bg-blue-700">Book This Package</a>
+    <button onclick="showForm()" class="bg-blue-600 text-white px-8 py-3 rounded-lg text-lg hover:bg-blue-700">Book This Package</button>
+  </section>
+
+  <section id="formWrapper" class="hidden py-16 px-4 text-center bg-gray-50">
+    <h3 class="text-xl font-semibold mb-4">Please fill in the form to get started</h3>
+    <div class="max-w-3xl mx-auto">
+      <iframe src="https://tally.so/embed/wgr4Vd?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0" title="CRM Launch Form"></iframe>
+    </div>
   </section>
 
 </body>
 </html>
+
