@@ -6,6 +6,9 @@
   <title>Мини Fix Пакет – 290 € | Zlatev Consulting</title>
   <meta name="description" content="Бърза намеса по конкретен проблем в търговския ви процес. Подходящо за екипи с вече внедрен CRM.">
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
   <script>
     function showForm() {
       document.getElementById('formWrapper').classList.remove('hidden');
@@ -15,26 +18,26 @@
 </head>
 <body class="bg-white text-gray-800">
 
-  <!-- Навигация -->
-  <div class="text-right p-4">
+  <!-- Back to main site -->
+  <div class="text-right px-4 py-3">
     <a href="/bg.html" class="text-sm text-blue-600 underline">← Назад към сайта</a>
   </div>
 
-  <!-- Заглавен блок -->
-  <section class="py-16 px-4 text-center bg-gray-100">
+  <!-- Hero Section -->
+  <section class="bg-gray-100 py-20 px-4 text-center">
     <h1 class="text-4xl font-bold mb-4">Мини Fix Пакет – 290 €</h1>
-    <p class="text-xl max-w-2xl mx-auto">Бърза помощ за един ясен търговски проблем. Без разговори, без излишно разтакаване — само решение.</p>
+    <p class="text-xl max-w-2xl mx-auto">Бърза помощ за един ясен търговски проблем. Ясна цел, бързо изпълнение.</p>
   </section>
 
-  <!-- Подробности за пакета -->
-  <section class="py-16 px-4 max-w-4xl mx-auto grid md:grid-cols-2 gap-12">
+  <!-- Details -->
+  <section class="py-20 px-4 max-w-6xl mx-auto grid md:grid-cols-2 gap-12 text-left">
     <div>
-      <h2 class="text-2xl font-semibold mb-4">Подходящо за</h2>
+      <h2 class="text-2xl font-semibold mb-3">Подходящо за</h2>
       <p>Фирми с вече внедрен CRM или процес, които се сблъскват с конкретен блокиращ проблем — технически или организационен.</p>
     </div>
     <div>
-      <h2 class="text-2xl font-semibold mb-4">Какво включва</h2>
-      <ul class="list-disc list-inside space-y-2 text-left">
+      <h2 class="text-2xl font-semibold mb-3">Какво включва</h2>
+      <ul class="list-disc list-inside space-y-2">
         <li>Анализ на текущото състояние и поставена цел</li>
         <li>Среща (60 минути) за диагностика</li>
         <li>Реализация на решението (конфигурация, автоматизация или интеграция)</li>
@@ -42,28 +45,28 @@
       </ul>
     </div>
     <div>
-      <h2 class="text-2xl font-semibold mb-4">Какво ще постигнете</h2>
-      <ul class="list-disc list-inside space-y-2 text-left">
+      <h2 class="text-2xl font-semibold mb-3">Какво ще постигнете</h2>
+      <ul class="list-disc list-inside space-y-2">
         <li>Решен конкретен проблем</li>
         <li>По-бърза реакция към запитвания и сделки</li>
         <li>По-голяма увереност в системата ви</li>
       </ul>
     </div>
     <div>
-      <h2 class="text-2xl font-semibold mb-4">Срок за изпълнение</h2>
+      <h2 class="text-2xl font-semibold mb-3">Срок за изпълнение</h2>
       <p>До 2 работни дни от момента на заявка.</p>
     </div>
   </section>
 
-  <!-- Призив за действие -->
-  <section class="py-16 px-4 text-center">
-    <h2 class="text-2xl font-bold mb-4">Готови ли сте да оправим проблема?</h2>
+  <!-- Call to Action -->
+  <section class="py-20 px-4 text-center bg-gray-50">
+    <h2 class="text-2xl font-bold mb-3">Готови ли сте да оправим проблема?</h2>
     <p class="mb-6">Натиснете бутона и започваме. Без излишни уговорки.</p>
-    <button onclick="showForm()" class="bg-blue-600 text-white px-8 py-3 rounded-lg text-lg hover:bg-blue-700">Изпрати запитване</button>
+    <button onclick="showForm()" class="bg-blue-600 text-white px-8 py-3 rounded-lg text-lg hover:bg-blue-700 transition">Изпрати запитване</button>
   </section>
 
-  <!-- Формуляр -->
-  <section id="formWrapper" class="hidden py-16 px-4 text-center bg-gray-50">
+  <!-- Form -->
+  <section id="formWrapper" class="hidden py-20 px-4 bg-white text-center">
     <h3 class="text-xl font-semibold mb-4">Попълнете формата и ще се заемем веднага</h3>
     <div class="max-w-3xl mx-auto shadow-lg rounded-lg overflow-hidden">
       <iframe 
@@ -77,10 +80,11 @@
     </div>
   </section>
 
-  <!-- Английска версия -->
-  <section class="py-8 px-4 text-center">
-    <a href="/mini-fix.html" class="text-sm text-blue-600 underline block mb-2">View in English →</a>
+  <!-- English version -->
+  <section class="py-10 px-4 text-center">
+    <a href="/mini-fix.html" class="text-sm text-blue-600 underline">View in English →</a>
   </section>
 
 </body>
 </html>
+
