@@ -1,0 +1,16 @@
+<section class="py-20 bg-gray-100">
+  <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+    <div class="text-center md:text-left">
+      <img src="/stoyan-zlatev.jpg" alt="Снимка на Стоян Златев" class="rounded-xl shadow-lg mx-auto md:mx-0 w-64 h-64 object-cover">
+    </div>
+    <div>
+      <h2 class="text-3xl font-bold mb-4">Кой стои зад Zlatev Consulting?</h2>
+      <p class="text-lg text-gray-700 mb-4">
+        Създадох Zlatev Consulting, за да помогна на малки екипи да изградят ясен и подреден търговски процес — без излишни разговори, сложни CRM системи или скъпи консултации.
+      </p>
+      <p class="text-lg text-gray-700">
+        Ако вашият екип работи в Excel или не използва пълноценно своя CRM, аз ще ви помогна да въведете ред, автоматизации и резултати.
+      </p>
+    </div>
+  </div>
+</section>
