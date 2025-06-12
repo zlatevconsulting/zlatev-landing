@@ -6,6 +6,9 @@
   <title>Mini Fix Pack – €290 | Zlatev Consulting</title>
   <meta name="description" content="Solve one painful sales or CRM issue fast with the Mini Fix Pack – CRM glitch, sales chaos, or lead tracking mess. Precision fixes for small businesses.">
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
   <script>
     function showForm() {
       document.getElementById('formWrapper').classList.remove('hidden');
@@ -35,25 +38,25 @@
 <body class="bg-white text-gray-800">
 
   <!-- Back Link -->
-  <div class="text-right p-4">
+  <div class="text-right px-4 py-3">
     <a href="/index.html" class="text-sm text-blue-600 underline">← Back to main site</a>
   </div>
 
   <!-- Hero Section -->
-  <section class="py-16 px-4 text-center bg-gray-100">
+  <section class="bg-gray-100 py-20 px-4 text-center">
     <h1 class="text-4xl font-bold mb-4">Mini Fix Pack – Sales & CRM Problem Solving</h1>
     <p class="text-xl max-w-2xl mx-auto">One painful sales problem solved. Fast. You choose the challenge — we fix it with precision and clarity.</p>
   </section>
 
   <!-- Details Section -->
-  <section class="py-16 px-4 max-w-4xl mx-auto grid md:grid-cols-2 gap-12">
+  <section class="py-20 px-4 max-w-6xl mx-auto grid md:grid-cols-2 gap-12 text-left">
     <div>
-      <h2 class="text-2xl font-semibold mb-4">Who It’s For</h2>
+      <h2 class="text-2xl font-semibold mb-3">Who It’s For</h2>
       <p>Entrepreneurs or small teams who already sell — but something’s broken, inefficient, or just plain chaotic.</p>
     </div>
     <div>
-      <h2 class="text-2xl font-semibold mb-4">What’s Included</h2>
-      <ul class="list-disc list-inside space-y-2 text-left">
+      <h2 class="text-2xl font-semibold mb-3">What’s Included</h2>
+      <ul class="list-disc list-inside space-y-2">
         <li>Deep-dive diagnosis call (30 min)</li>
         <li>Audit of the broken process or CRM area</li>
         <li>Fix, redesign, or rebuild of one selected sales process or flow</li>
@@ -62,19 +65,19 @@
       </ul>
     </div>
     <div>
-      <h2 class="text-2xl font-semibold mb-4">Results You Can Expect</h2>
-      <ul class="list-disc list-inside space-y-2 text-left">
+      <h2 class="text-2xl font-semibold mb-3">Results You Can Expect</h2>
+      <ul class="list-disc list-inside space-y-2">
         <li>Fix what’s frustrating you (finally)</li>
         <li>Start moving leads through your system smoothly again</li>
         <li>Save time and avoid losing deals due to inefficiency</li>
       </ul>
     </div>
     <div>
-      <h2 class="text-2xl font-semibold mb-4">Delivery Timeline</h2>
+      <h2 class="text-2xl font-semibold mb-3">Delivery Timeline</h2>
       <p>1–3 days after kickoff call</p>
 
-      <h2 class="text-2xl font-semibold mt-6 mb-4">Add-ons (Optional)</h2>
-      <ul class="list-disc list-inside space-y-2 text-left">
+      <h2 class="text-2xl font-semibold mt-6 mb-3">Add-ons (Optional)</h2>
+      <ul class="list-disc list-inside space-y-2">
         <li>Extra issue tackled – €190</li>
         <li>30-minute training or Q&A call – €60</li>
       </ul>
@@ -82,24 +85,24 @@
   </section>
 
   <!-- Call to Action -->
-  <section class="py-16 px-4 text-center">
-    <h2 class="text-2xl font-bold mb-4">Let’s fix what’s broken</h2>
+  <section class="py-20 px-4 text-center bg-gray-50">
+    <h2 class="text-2xl font-bold mb-3">Let’s fix what’s broken</h2>
     <p class="mb-6">Click below to book your Mini Fix. It starts with clarity.</p>
-    <button onclick="showForm()" class="bg-blue-600 text-white px-8 py-3 rounded-lg text-lg hover:bg-blue-700">Send Request</button>
+    <button onclick="showForm()" class="bg-blue-600 text-white px-8 py-3 rounded-lg text-lg hover:bg-blue-700 transition">Send Request</button>
   </section>
 
   <!-- Form Section -->
-  <section id="formWrapper" class="hidden py-16 px-4 text-center bg-gray-50">
+  <section id="formWrapper" class="hidden py-20 px-4 bg-white text-center">
     <h3 class="text-xl font-semibold mb-4">Please fill out this short form to get started</h3>
-    <div class="max-w-3xl mx-auto">
-      <iframe src="https://tally.so/embed/wgr4Vd?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
-              loading="lazy"
-              width="100%"
-              height="500"
-              frameborder="0"
-              marginheight="0"
-              marginwidth="0"
-              title="Mini Fix Form"></iframe>
+    <div class="max-w-3xl mx-auto shadow-lg rounded-lg overflow-hidden">
+      <iframe 
+        src="https://tally.so/embed/wgr4Vd?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+        loading="lazy"
+        width="100%"
+        height="500"
+        frameborder="0"
+        title="Mini Fix Form">
+      </iframe>
     </div>
   </section>
 
