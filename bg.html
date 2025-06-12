@@ -6,12 +6,28 @@
   <title>Zlatev Consulting – Автоматизация на продажбите и CRM внедряване</title>
   <meta name="description" content="Zlatev Consulting автоматизира процесите по продажби и внедрява CRM системи за малки бизнеси. Спестете време и разходи с ефективна структура.">
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 0.7s ease-out forwards;
+    }
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
 </head>
 <body class="bg-white text-gray-800">
 
   <!-- Sticky Navigation -->
   <header class="sticky top-0 z-50 bg-white shadow">
-    <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
       <a href="/index.html" class="text-lg font-semibold text-gray-900">Zlatev Consulting</a>
       <nav class="space-x-4 text-sm md:text-base">
         <a href="/bg.html" class="text-blue-600 hover:underline">Начало</a>
@@ -23,45 +39,46 @@
   </header>
 
   <!-- Hero Section -->
-  <section class="bg-gray-100 py-20 px-4 text-center">
-    <h1 class="text-3xl md:text-5xl font-bold mb-4">Автоматизирай продажбите си. Работи умно, не повече.</h1>
-    <p class="text-lg md:text-xl mb-6">Ние помагаме на малки екипи да внедрят CRM, автоматизират процесите си и да растат ефективно.</p>
-    <a href="#packages" class="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg hover:bg-blue-700">Разгледай пакетите</a>
+  <section class="bg-gray-100 py-20 px-4 text-center fade-in">
+    <h1 class="text-3xl md:text-5xl font-bold mb-6">Автоматизирай продажбите си. Работи умно, не повече.</h1>
+    <p class="text-lg md:text-xl mb-8 max-w-3xl mx-auto">Ние помагаме на малки екипи да внедрят CRM, автоматизират процесите си и да растат ефективно.</p>
+    <a href="#packages" class="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg text-lg hover:bg-blue-700 transition">Разгледай пакетите</a>
   </section>
 
   <!-- Packages Section -->
-  <section id="packages" class="py-20 px-4 bg-white text-center">
-    <h3 class="text-3xl font-bold mb-10">Нашите Пакети</h3>
+  <section id="packages" class="py-20 px-4 bg-white text-center fade-in">
+    <h3 class="text-3xl font-bold mb-12">Нашите Пакети</h3>
     <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-      <div class="border p-6 rounded-lg shadow">
+      <div class="border p-6 rounded-xl shadow hover:shadow-lg transition duration-300">
         <h4 class="text-xl font-bold mb-2">Мини Fix Пакет – €290</h4>
-        <p>Бързо решение на един конкретен проблем.</p>
-        <a href="/mini-fix-bg.html" class="inline-block mt-2 text-blue-600 underline">Виж подробности →</a>
+        <p class="mb-2">Бързо решение на един конкретен проблем.</p>
+        <a href="/mini-fix-bg.html" class="text-blue-600 hover:underline text-sm">Виж подробности →</a>
       </div>
-      <div class="border p-6 rounded-lg shadow">
+      <div class="border p-6 rounded-xl shadow hover:shadow-lg transition duration-300">
         <h4 class="text-xl font-bold mb-2">CRM Старт – €490</h4>
-        <p>Внедряване на CRM + автоматизация за екипи, които използват Excel.</p>
-        <a href="/smart-crm-bg.html" class="inline-block mt-2 text-blue-600 underline">Виж подробности →</a>
+        <p class="mb-2">Внедряване на CRM + автоматизация за екипи, които използват Excel.</p>
+        <a href="/smart-crm-bg.html" class="text-blue-600 hover:underline text-sm">Виж подробности →</a>
       </div>
-      <div class="border p-6 rounded-lg shadow">
+      <div class="border p-6 rounded-xl shadow hover:shadow-lg transition duration-300">
         <h4 class="text-xl font-bold mb-2">Нов старт в продажбите – €890</h4>
-        <p>Пълен редизайн и автоматизация на търговските процеси.</p>
-        <a href="/sales-system-overhaul-bg.html" class="inline-block mt-2 text-blue-600 underline">Виж подробности →</a>
+        <p class="mb-2">Пълен редизайн и автоматизация на търговските процеси.</p>
+        <a href="/sales-system-overhaul-bg.html" class="text-blue-600 hover:underline text-sm">Виж подробности →</a>
       </div>
     </div>
   </section>
 
   <!-- Contact Section -->
-  <section id="contact" class="py-16 px-4 bg-gray-100 text-center">
+  <section id="contact" class="py-20 px-4 bg-gray-100 text-center fade-in">
     <h3 class="text-2xl font-bold mb-4">Контакт</h3>
-    <p class="mb-2">Имейл: <a href="mailto:stoyan@zlatevconsulting.com" class="text-blue-600">stoyan@zlatevconsulting.com</a></p>
-    <p>Телефон: <a href="tel:+359878884854" class="text-blue-600">+359 87 888 4854</a></p>
+    <p class="mb-2">Имейл: <a href="mailto:stoyan@zlatevconsulting.com" class="text-blue-600 underline">stoyan@zlatevconsulting.com</a></p>
+    <p>Телефон: <a href="tel:+359878884854" class="text-blue-600 underline">+359 87 888 4854</a></p>
   </section>
 
-  <!-- Footer Logo -->
-  <div class="text-center py-6">
-    <img src="/ZC%201.png" alt="Zlatev Consulting Logo" class="mx-auto h-16">
-  </div>
+  <!-- Footer -->
+  <footer class="py-8 text-center">
+    <img src="/ZC%201.png" alt="Zlatev Consulting Logo" class="mx-auto h-16 mb-4 fade-in">
+    <p class="text-sm text-gray-500">© 2025 Zlatev Consulting. Всички права запазени.</p>
+  </footer>
 
 </body>
 </html>
