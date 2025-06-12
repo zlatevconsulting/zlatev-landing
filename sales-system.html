@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sales System Overhaul – €890 | Zlatev Consulting</title>
   <meta name="description" content="Redesign and automate your sales system for scaling. CRM setup, automations, and team workflows — delivered in 10 days.">
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
   <script>
     function showForm() {
       document.getElementById('formWrapper').classList.remove('hidden');
@@ -35,25 +38,25 @@
 <body class="bg-white text-gray-800">
 
   <!-- Back Navigation -->
-  <div class="text-right p-4">
+  <div class="text-right px-4 py-3">
     <a href="/index.html" class="text-sm text-blue-600 underline">&larr; Back to main site</a>
   </div>
 
-  <!-- Hero -->
-  <section class="py-16 px-4 text-center bg-gray-100">
+  <!-- Hero Section -->
+  <section class="bg-gray-100 py-20 px-4 text-center">
     <h1 class="text-4xl font-bold mb-4">Sales System Overhaul – €890</h1>
     <p class="text-xl max-w-2xl mx-auto">End-to-end optimization of your sales engine. We rebuild your pipeline, CRM, automations, and reporting from scratch.</p>
   </section>
 
-  <!-- Details -->
-  <section class="py-16 px-4 max-w-4xl mx-auto grid md:grid-cols-2 gap-12">
+  <!-- Details Section -->
+  <section class="py-20 px-4 max-w-6xl mx-auto grid md:grid-cols-2 gap-12 text-left">
     <div>
-      <h2 class="text-2xl font-semibold mb-4">Who It’s For</h2>
+      <h2 class="text-2xl font-semibold mb-3">Who It’s For</h2>
       <p>Businesses ready to grow but held back by chaotic, manual, or outdated sales systems. Ideal for teams of 3+ people.</p>
     </div>
     <div>
-      <h2 class="text-2xl font-semibold mb-4">What’s Included</h2>
-      <ul class="list-disc list-inside space-y-2 text-left">
+      <h2 class="text-2xl font-semibold mb-3">What’s Included</h2>
+      <ul class="list-disc list-inside space-y-2">
         <li>90-minute discovery workshop</li>
         <li>Audit of current process, CRM, and tools</li>
         <li>Custom sales system setup (CRM, lead flow, structure)</li>
@@ -63,19 +66,19 @@
       </ul>
     </div>
     <div>
-      <h2 class="text-2xl font-semibold mb-4">Results You Can Expect</h2>
-      <ul class="list-disc list-inside space-y-2 text-left">
+      <h2 class="text-2xl font-semibold mb-3">Results You Can Expect</h2>
+      <ul class="list-disc list-inside space-y-2">
         <li>Smoother lead handling and fewer bottlenecks</li>
         <li>Increased clarity and sales team performance</li>
         <li>Solid CRM foundation for scaling up</li>
       </ul>
     </div>
     <div>
-      <h2 class="text-2xl font-semibold mb-4">Delivery Timeline</h2>
+      <h2 class="text-2xl font-semibold mb-3">Delivery Timeline</h2>
       <p>Project starts within 72 hours after payment. Full delivery in 10 business days.</p>
 
-      <h2 class="text-2xl font-semibold mt-6 mb-4">Add-ons (Optional)</h2>
-      <ul class="list-disc list-inside space-y-2 text-left">
+      <h2 class="text-2xl font-semibold mt-6 mb-3">Add-ons (Optional)</h2>
+      <ul class="list-disc list-inside space-y-2">
         <li>Extra automation flow – €60</li>
         <li>Ongoing support – €150/month</li>
         <li>Sales scripts & email templates – €90</li>
@@ -83,20 +86,22 @@
     </div>
   </section>
 
-  <!-- CTA -->
-  <section class="py-16 px-4 text-center">
-    <h2 class="text-2xl font-bold mb-4">Time to overhaul your sales?</h2>
+  <!-- Call to Action -->
+  <section class="py-20 px-4 text-center bg-gray-50">
+    <h2 class="text-2xl font-bold mb-3">Time to overhaul your sales?</h2>
     <p class="mb-6">Click below to begin your transformation. No discovery call required.</p>
-    <button onclick="showForm()" class="bg-blue-600 text-white px-8 py-3 rounded-lg text-lg hover:bg-blue-700">Send Request</button>
+    <button onclick="showForm()" class="bg-blue-600 text-white px-8 py-3 rounded-lg text-lg hover:bg-blue-700 transition">Send Request</button>
   </section>
 
   <!-- Form -->
-  <section id="formWrapper" class="hidden py-16 px-4 text-center bg-gray-50">
+  <section id="formWrapper" class="hidden py-20 px-4 text-center bg-white">
     <h3 class="text-xl font-semibold mb-4">Fill out the form and we’ll handle the rest</h3>
-    <div class="max-w-3xl mx-auto">
-      <iframe src="https://tally.so/embed/wgr4Vd?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0" title="Sales Overhaul Form"></iframe>
+    <div class="max-w-3xl mx-auto shadow-lg rounded-lg overflow-hidden">
+      <iframe src="https://tally.so/embed/wgr4Vd?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+              width="100%" height="500" frameborder="0" title="Sales Overhaul Form"></iframe>
     </div>
   </section>
 
 </body>
 </html>
+
