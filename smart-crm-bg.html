@@ -6,6 +6,9 @@
   <title>CRM Старт – 490 € | Zlatev Consulting</title>
   <meta name="description" content="Внедряване на CRM за екипи, които работят в Excel. Автоматизация, ясен pipeline, обучение и поддръжка – всичко за 5–7 дни.">
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
   <script>
     function showForm() {
       document.getElementById('formWrapper').classList.remove('hidden');
@@ -34,26 +37,26 @@
 </head>
 <body class="bg-white text-gray-800">
 
-  <!-- Navigation -->
-  <div class="text-right p-4">
+  <!-- Навигация -->
+  <div class="text-right px-4 py-3">
     <a href="/bg.html" class="text-sm text-blue-600 underline">&larr; Назад към сайта</a>
   </div>
 
-  <!-- Hero Section -->
-  <section class="py-16 px-4 text-center bg-gray-100">
+  <!-- Hero Секция -->
+  <section class="bg-gray-100 py-20 px-4 text-center">
     <h1 class="text-4xl font-bold mb-4">CRM Старт – 490 €</h1>
     <p class="text-xl max-w-2xl mx-auto">Подреди процеса си с CRM. Край на хаоса в Excel. Ясен старт, автоматизация и видимост върху продажбите.</p>
   </section>
 
-  <!-- Package Details -->
-  <section class="py-16 px-4 max-w-4xl mx-auto grid md:grid-cols-2 gap-12">
+  <!-- Детайли за Пакета -->
+  <section class="py-20 px-4 max-w-6xl mx-auto grid md:grid-cols-2 gap-12 text-left">
     <div>
-      <h2 class="text-2xl font-semibold mb-4">За кого е</h2>
+      <h2 class="text-2xl font-semibold mb-3">За кого е</h2>
       <p>Екипи, които използват Excel и изпитват трудности с проследяването, комуникацията и отчетността. Идеален за преминаване към по-структуриран процес.</p>
     </div>
     <div>
-      <h2 class="text-2xl font-semibold mb-4">Какво включва</h2>
-      <ul class="list-disc list-inside space-y-2 text-left">
+      <h2 class="text-2xl font-semibold mb-3">Какво включва</h2>
+      <ul class="list-disc list-inside space-y-2">
         <li>Анализ на настоящия процес</li>
         <li>Избор и настройка на подходящ CRM инструмент</li>
         <li>Изграждане на pipeline с етапи и задачи</li>
@@ -62,35 +65,36 @@
       </ul>
     </div>
     <div>
-      <h2 class="text-2xl font-semibold mb-4">Резултати, които ще получите</h2>
-      <ul class="list-disc list-inside space-y-2 text-left">
+      <h2 class="text-2xl font-semibold mb-3">Резултати, които ще получите</h2>
+      <ul class="list-disc list-inside space-y-2">
         <li>Ясна структура и последователност в продажбите</li>
         <li>Проследяване на всяка сделка и етап</li>
         <li>По-добра вътрешна комуникация и отчетност</li>
       </ul>
     </div>
     <div>
-      <h2 class="text-2xl font-semibold mb-4">Срок на изпълнение</h2>
+      <h2 class="text-2xl font-semibold mb-3">Срок на изпълнение</h2>
       <p>5–7 работни дни след одобрение на анализа и изискванията</p>
     </div>
   </section>
 
-  <!-- CTA Section -->
-  <section class="py-16 px-4 text-center">
-    <h2 class="text-2xl font-bold mb-4">Готови ли сте да стартирате?</h2>
+  <!-- CTA Секция -->
+  <section class="py-20 px-4 text-center bg-gray-50">
+    <h2 class="text-2xl font-bold mb-3">Готови ли сте да стартирате?</h2>
     <p class="mb-6">Натиснете бутона по-долу, за да заявите този пакет. Без разговори и сложни процеси – директно действие.</p>
-    <button onclick="showForm()" class="bg-blue-600 text-white px-8 py-3 rounded-lg text-lg hover:bg-blue-700">Изпрати запитване</button>
+    <button onclick="showForm()" class="bg-blue-600 text-white px-8 py-3 rounded-lg text-lg hover:bg-blue-700 transition">Изпрати запитване</button>
   </section>
 
-  <!-- Form Section -->
-  <section id="formWrapper" class="hidden py-16 px-4 text-center bg-gray-50">
+  <!-- Форма -->
+  <section id="formWrapper" class="hidden py-20 px-4 text-center bg-white">
     <h3 class="text-xl font-semibold mb-4">Моля, попълнете формата и ще се свържем с вас</h3>
-    <div class="max-w-3xl mx-auto">
-      <iframe src="https://tally.so/embed/mYydA6?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0" title="CRM Start Form"></iframe>
+    <div class="max-w-3xl mx-auto shadow-lg rounded-lg overflow-hidden">
+      <iframe src="https://tally.so/embed/mYydA6?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+              width="100%" height="600" frameborder="0" title="CRM Start Form"></iframe>
     </div>
   </section>
 
-  <!-- Language Switch -->
+  <!-- Смяна на език -->
   <section class="py-8 px-4 text-center">
     <a href="/smart-crm.html" class="text-sm text-blue-600 underline block mb-2">View in English →</a>
   </section>
