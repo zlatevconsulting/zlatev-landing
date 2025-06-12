@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Smart CRM Launch – €490 | Zlatev Consulting</title>
   <meta name="description" content="Smart CRM Launch is for small teams ready to ditch spreadsheets. We’ll set up your CRM, automate follow-ups, and train your team.">
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
   <script>
     function showForm() {
       document.getElementById('formWrapper').classList.remove('hidden');
@@ -15,23 +18,26 @@
 </head>
 <body class="bg-white text-gray-800">
 
-  <div class="text-right p-4">
+  <!-- Navigation -->
+  <div class="text-right px-4 py-3">
     <a href="/index.html" class="text-sm text-blue-600 underline">← Back to main site</a>
   </div>
 
-  <section class="py-16 px-4 text-center bg-gray-100">
+  <!-- Hero Section -->
+  <section class="bg-gray-100 py-20 px-4 text-center">
     <h1 class="text-4xl font-bold mb-4">Smart CRM Launch – €490</h1>
     <p class="text-xl max-w-2xl mx-auto">Ditch spreadsheets. Close faster. We’ll build your CRM system so you can grow without the chaos.</p>
   </section>
 
-  <section class="py-16 px-4 max-w-4xl mx-auto grid md:grid-cols-2 gap-12">
+  <!-- Details Section -->
+  <section class="py-20 px-4 max-w-6xl mx-auto grid md:grid-cols-2 gap-12 text-left">
     <div>
-      <h2 class="text-2xl font-semibold mb-4">Who It’s For</h2>
+      <h2 class="text-2xl font-semibold mb-3">Who It’s For</h2>
       <p>Solopreneurs and small sales teams (2–5 people) that don’t use a CRM or feel overwhelmed by their current setup.</p>
     </div>
     <div>
-      <h2 class="text-2xl font-semibold mb-4">What’s Included</h2>
-      <ul class="list-disc list-inside space-y-2 text-left">
+      <h2 class="text-2xl font-semibold mb-3">What’s Included</h2>
+      <ul class="list-disc list-inside space-y-2">
         <li>CRM account setup (HubSpot, Zoho or equivalent)</li>
         <li>Tailored sales pipeline configuration</li>
         <li>3 automated workflows (email reminders, task triggers)</li>
@@ -41,8 +47,8 @@
       </ul>
     </div>
     <div>
-      <h2 class="text-2xl font-semibold mb-4">Results You Can Expect</h2>
-      <ul class="list-disc list-inside space-y-2 text-left">
+      <h2 class="text-2xl font-semibold mb-3">Results You Can Expect</h2>
+      <ul class="list-disc list-inside space-y-2">
         <li>Know exactly where every deal stands</li>
         <li>Never forget to follow up again</li>
         <li>Automate the boring stuff</li>
@@ -50,11 +56,11 @@
       </ul>
     </div>
     <div>
-      <h2 class="text-2xl font-semibold mb-4">Delivery Timeline</h2>
+      <h2 class="text-2xl font-semibold mb-3">Delivery Timeline</h2>
       <p>We start 48h after payment. Delivery in 5 business days.</p>
 
-      <h2 class="text-2xl font-semibold mt-6 mb-4">Add-ons (Optional)</h2>
-      <ul class="list-disc list-inside space-y-2 text-left">
+      <h2 class="text-2xl font-semibold mt-6 mb-3">Add-ons (Optional)</h2>
+      <ul class="list-disc list-inside space-y-2">
         <li>Extra automation flow – €60</li>
         <li>Custom integration (Gmail, Stripe, etc.) – €120</li>
         <li>1-on-1 training – €90/hour</li>
@@ -62,16 +68,19 @@
     </div>
   </section>
 
-  <section class="py-16 px-4 text-center">
-    <h2 class="text-2xl font-bold mb-4">Ready to work smarter?</h2>
+  <!-- CTA Section -->
+  <section class="py-20 px-4 text-center bg-gray-50">
+    <h2 class="text-2xl font-bold mb-3">Ready to work smarter?</h2>
     <p class="mb-6">Click below to get started — no calls, just action.</p>
-    <button onclick="showForm()" class="bg-blue-600 text-white px-8 py-3 rounded-lg text-lg hover:bg-blue-700">Send Request</button>
+    <button onclick="showForm()" class="bg-blue-600 text-white px-8 py-3 rounded-lg text-lg hover:bg-blue-700 transition">Send Request</button>
   </section>
 
-  <section id="formWrapper" class="hidden py-16 px-4 text-center bg-gray-50">
+  <!-- Form Section -->
+  <section id="formWrapper" class="hidden py-20 px-4 text-center bg-white">
     <h3 class="text-xl font-semibold mb-4">Please fill in the form to get started</h3>
-    <div class="max-w-3xl mx-auto">
-      <iframe src="https://tally.so/embed/wgr4Vd?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0" title="CRM Launch Form"></iframe>
+    <div class="max-w-3xl mx-auto shadow-lg rounded-lg overflow-hidden">
+      <iframe src="https://tally.so/embed/wgr4Vd?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+              width="100%" height="500" frameborder="0" title="CRM Launch Form"></iframe>
     </div>
   </section>
 
