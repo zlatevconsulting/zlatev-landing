@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | Zlatev Consulting</title>
+  <meta name="description" content="Learn more about Zlatev Consulting – our mission, values, and how we help small teams automate sales and grow efficiently.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-white shadow-md">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="/index.html" class="text-lg font-semibold text-gray-900">Zlatev Consulting</a>
+      <nav class="space-x-4 text-sm md:text-base">
+        <a href="/index.html" class="text-gray-700 hover:underline">Home</a>
+        <a href="/#packages" class="text-gray-700 hover:underline">Packages</a>
+        <a href="/about.html" class="text-blue-600 font-semibold underline">About</a>
+        <a href="/#contact" class="text-gray-700 hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-gray-100 py-20 px-4 text-center" data-aos="fade-up">
+    <h1 class="text-4xl font-bold mb-4">Who We Are</h1>
+    <p class="text-xl max-w-3xl mx-auto">Zlatev Consulting helps small teams scale smart by designing efficient sales systems, automating repetitive work, and implementing CRMs that actually get used.</p>
+  </section>
+
+  <!-- Story -->
+  <section class="py-20 px-4 max-w-4xl mx-auto" data-aos="fade-up">
+    <h2 class="text-2xl font-semibold mb-4">Our Story</h2>
+    <p class="mb-6 leading-relaxed">
+      We started Zlatev Consulting after realizing that most small businesses were drowning in spreadsheets, manual follow-ups, and sales chaos. We believe that even the smallest team deserves the clarity, structure, and momentum of a well-oiled sales system — without enterprise-level costs or complexity.
+    </p>
+    <p class="leading-relaxed">
+      With a background in operations, automation, and sales process design, we’ve helped dozens of teams reduce busywork, close deals faster, and build scalable workflows in just days — not months.
+    </p>
+  </section>
+
+  <!-- Values -->
+  <section class="bg-white py-20 px-4 text-center" data-aos="fade-up">
+    <h2 class="text-2xl font-semibold mb-8">What We Believe</h2>
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div class="p-6 border rounded-xl shadow-sm">
+        <h3 class="font-bold text-lg mb-2">Clarity Wins</h3>
+        <p>Simple tools and workflows beat complicated CRMs every time.</p>
+      </div>
+      <div class="p-6 border rounded-xl shadow-sm">
+        <h3 class="font-bold text-lg mb-2">Small Teams Deserve Big Tools</h3>
+        <p>You don’t need a big budget to automate and grow with confidence.</p>
+      </div>
+      <div class="p-6 border rounded-xl shadow-sm">
+        <h3 class="font-bold text-lg mb-2">Done > Perfect</h3>
+        <p>Progress beats perfection. We focus on quick wins that move the needle now.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-20 px-4 text-center bg-gray-100" data-aos="fade-up">
+    <h2 class="text-2xl font-bold mb-4">Ready to simplify your sales process?</h2>
+    <a href="/#packages" class="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg text-lg hover:bg-blue-700 transition">Explore Our Packages</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 text-center">
+    <img src="/ZC%201.png" alt="Zlatev Consulting Logo" class="mx-auto h-16 mb-4" />
+    <p class="text-sm text-gray-500">© 2025 Zlatev Consulting. All rights reserved.</p>
+  </footer>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 800, once: true });
+  </script>
+</body>
+</html>
