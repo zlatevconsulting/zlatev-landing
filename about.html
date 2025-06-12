@@ -3,83 +3,80 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About Us | Zlatev Consulting</title>
-  <meta name="description" content="Learn more about Zlatev Consulting – our mission, values, and how we help small teams automate sales and grow efficiently.">
+  <title>About | Zlatev Consulting</title>
+  <meta name="description" content="Get to know the founder of Zlatev Consulting and the mission behind the work – helping small teams automate, organize, and grow.">
   <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
   <style>
     html {
       scroll-behavior: smooth;
+    }
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 0.8s ease-out forwards;
+    }
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
   </style>
 </head>
 <body class="bg-white text-gray-800">
 
   <!-- Header -->
-  <header class="sticky top-0 z-50 bg-white shadow-md">
+  <header class="sticky top-0 z-50 bg-white shadow">
     <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
       <a href="/index.html" class="text-lg font-semibold text-gray-900">Zlatev Consulting</a>
       <nav class="space-x-4 text-sm md:text-base">
         <a href="/index.html" class="text-gray-700 hover:underline">Home</a>
         <a href="/#packages" class="text-gray-700 hover:underline">Packages</a>
         <a href="/about.html" class="text-blue-600 font-semibold underline">About</a>
-        <a href="/#contact" class="text-gray-700 hover:underline">Contact</a>
+        <a href="/bg.html" class="text-gray-500 hover:underline">BG</a>
       </nav>
     </div>
   </header>
 
-  <!-- Hero -->
-  <section class="bg-gray-100 py-20 px-4 text-center" data-aos="fade-up">
-    <h1 class="text-4xl font-bold mb-4">Who We Are</h1>
-    <p class="text-xl max-w-3xl mx-auto">Zlatev Consulting helps small teams scale smart by designing efficient sales systems, automating repetitive work, and implementing CRMs that actually get used.</p>
-  </section>
-
-  <!-- Story -->
-  <section class="py-20 px-4 max-w-4xl mx-auto" data-aos="fade-up">
-    <h2 class="text-2xl font-semibold mb-4">Our Story</h2>
-    <p class="mb-6 leading-relaxed">
-      We started Zlatev Consulting after realizing that most small businesses were drowning in spreadsheets, manual follow-ups, and sales chaos. We believe that even the smallest team deserves the clarity, structure, and momentum of a well-oiled sales system — without enterprise-level costs or complexity.
-    </p>
-    <p class="leading-relaxed">
-      With a background in operations, automation, and sales process design, we’ve helped dozens of teams reduce busywork, close deals faster, and build scalable workflows in just days — not months.
+  <!-- Hero Section -->
+  <section class="bg-blue-50 py-20 px-6 text-center fade-in">
+    <h1 class="text-4xl font-bold mb-4 text-gray-800">Hi, I’m Stoyan 👋</h1>
+    <p class="text-lg max-w-2xl mx-auto text-gray-700">
+      I help small teams grow through structure, not stress. With over a decade of experience across sales, CRM, and process optimization, I now work with businesses that want to move faster — but smarter.
     </p>
   </section>
 
-  <!-- Values -->
-  <section class="bg-white py-20 px-4 text-center" data-aos="fade-up">
-    <h2 class="text-2xl font-semibold mb-8">What We Believe</h2>
-    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-      <div class="p-6 border rounded-xl shadow-sm">
-        <h3 class="font-bold text-lg mb-2">Clarity Wins</h3>
-        <p>Simple tools and workflows beat complicated CRMs every time.</p>
+  <!-- About Image + Bio -->
+  <section class="py-20 px-4 bg-white text-center fade-in">
+    <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <img src="/viber_изображение_2025-04-27_13-15-47-411.jpg" alt="Stoyan Zlatev Portrait" class="rounded-xl shadow-lg mx-auto w-64 h-64 object-cover">
       </div>
-      <div class="p-6 border rounded-xl shadow-sm">
-        <h3 class="font-bold text-lg mb-2">Small Teams Deserve Big Tools</h3>
-        <p>You don’t need a big budget to automate and grow with confidence.</p>
-      </div>
-      <div class="p-6 border rounded-xl shadow-sm">
-        <h3 class="font-bold text-lg mb-2">Done > Perfect</h3>
-        <p>Progress beats perfection. We focus on quick wins that move the needle now.</p>
+      <div class="text-left">
+        <h2 class="text-2xl font-semibold mb-4">Why Zlatev Consulting?</h2>
+        <p class="mb-4 text-gray-700 leading-relaxed">
+          I created Zlatev Consulting to give lean teams a clear sales system — no fluff, no overkill, no endless calls. From fixing one broken process to building an entire CRM structure, I focus on high-impact implementation.
+        </p>
+        <p class="text-gray-700">
+          Whether you’re working in Excel or have an underused CRM, I’m here to help you organize leads, automate tasks, and build momentum again.
+        </p>
       </div>
     </div>
   </section>
 
-  <!-- CTA -->
-  <section class="py-20 px-4 text-center bg-gray-100" data-aos="fade-up">
-    <h2 class="text-2xl font-bold mb-4">Ready to simplify your sales process?</h2>
-    <a href="/#packages" class="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg text-lg hover:bg-blue-700 transition">Explore Our Packages</a>
+  <!-- Contact -->
+  <section class="py-16 px-4 bg-gray-100 text-center fade-in">
+    <h3 class="text-2xl font-bold mb-4">Let’s talk results</h3>
+    <p class="mb-2">Email: <a href="mailto:stoyan@zlatevconsulting.com" class="text-blue-600 underline">stoyan@zlatevconsulting.com</a></p>
+    <p>Phone: <a href="tel:+359878884854" class="text-blue-600 underline">+359 87 888 4854</a></p>
   </section>
 
   <!-- Footer -->
   <footer class="py-8 text-center">
-    <img src="/ZC%201.png" alt="Zlatev Consulting Logo" class="mx-auto h-16 mb-4" />
+    <img src="/ZC%201.png" alt="Zlatev Consulting Logo" class="mx-auto h-16 mb-4">
     <p class="text-sm text-gray-500">© 2025 Zlatev Consulting. All rights reserved.</p>
   </footer>
 
-  <!-- AOS -->
-  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-  <script>
-    AOS.init({ duration: 800, once: true });
-  </script>
 </body>
 </html>
+
