@@ -1,16 +1,54 @@
-<section class="py-20 bg-gray-100">
-  <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
-    <div class="text-center md:text-left">
-      <img src="/stoyan-zlatev.jpg" alt="Снимка на Стоян Златев" class="rounded-xl shadow-lg mx-auto md:mx-0 w-64 h-64 object-cover">
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>За мен | Zlatev Consulting</title>
+  <meta name="description" content="Научете повече за Стоян Златев и Zlatev Consulting – яснота, автоматизация и резултати.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Sticky Navigation -->
+  <header class="sticky top-0 z-50 bg-white shadow">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="/bg.html" class="text-lg font-semibold text-gray-900">Zlatev Consulting</a>
+      <nav class="space-x-4 text-sm md:text-base">
+        <a href="/bg.html" class="text-blue-600 hover:underline">Начало</a>
+        <a href="/bg.html#packages" class="text-gray-700 hover:underline">Пакети</a>
+        <a href="/za-men.html" class="text-gray-700 hover:underline">За мен</a>
+        <a href="/index.html" class="text-gray-500 hover:underline">English</a>
+      </nav>
     </div>
-    <div>
-      <h2 class="text-3xl font-bold mb-4">Кой стои зад Zlatev Consulting?</h2>
-      <p class="text-lg text-gray-700 mb-4">
-        Създадох Zlatev Consulting, за да помогна на малки екипи да изградят ясен и подреден търговски процес — без излишни разговори, сложни CRM системи или скъпи консултации.
-      </p>
-      <p class="text-lg text-gray-700">
-        Ако вашият екип работи в Excel или не използва пълноценно своя CRM, аз ще ви помогна да въведете ред, автоматизации и резултати.
-      </p>
+  </header>
+
+  <!-- About Section -->
+  <section class="py-20 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+      <div class="text-center md:text-left">
+        <img src="/stoyan-zlatev.jpg" alt="Снимка на Стоян Златев" class="rounded-xl shadow-lg mx-auto md:mx-0 w-64 h-64 object-cover" />
+      </div>
+      <div>
+        <h2 class="text-3xl font-bold mb-4">Кой стои зад Zlatev Consulting?</h2>
+        <p class="text-lg text-gray-700 mb-4">
+          Създадох Zlatev Consulting, за да помогна на малки екипи да изградят ясен и подреден търговски процес – без излишни разговори, сложни CRM системи или скъпи консултации.
+        </p>
+        <p class="text-lg text-gray-700">
+          Ако вашият екип работи в Excel или не използва пълноценно своя CRM, аз ще ви помогна да въведете ред, автоматизации и резултати.
+        </p>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 text-center">
+    <p class="text-sm text-gray-500">© 2025 Zlatev Consulting. Всички права запазени.</p>
+  </footer>
+
+</body>
+</html>
