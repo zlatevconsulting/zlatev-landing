@@ -4,49 +4,76 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>За мен | Zlatev Consulting</title>
-  <meta name="description" content="Научете повече за Стоян Златев и Zlatev Consulting – яснота, автоматизация и резултати.">
+  <meta name="description" content="Запознайте се със създателя на Zlatev Consulting и мисията зад проекта – да помага на малки екипи да автоматизират, подредят и развият процесите си.">
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     html {
       scroll-behavior: smooth;
     }
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 0.8s ease-out forwards;
+    }
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
   </style>
 </head>
 <body class="bg-white text-gray-800">
 
-  <!-- Sticky Navigation -->
+  <!-- Header -->
   <header class="sticky top-0 z-50 bg-white shadow">
     <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
       <a href="/bg.html" class="text-lg font-semibold text-gray-900">Zlatev Consulting</a>
       <nav class="space-x-4 text-sm md:text-base">
-        <a href="/bg.html" class="text-blue-600 hover:underline">Начало</a>
+        <a href="/bg.html" class="text-gray-700 hover:underline">Начало</a>
         <a href="/bg.html#packages" class="text-gray-700 hover:underline">Пакети</a>
-        <a href="/za-men.html" class="text-gray-700 hover:underline">За мен</a>
+        <a href="/za-men.html" class="text-blue-600 font-semibold underline">За мен</a>
         <a href="/index.html" class="text-gray-500 hover:underline">English</a>
       </nav>
     </div>
   </header>
 
-  <!-- About Section -->
-  <section class="py-20 bg-gray-100">
-    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
-      <div class="text-center md:text-left">
-        <img src="/stoyan-zlatev.jpg" alt="Снимка на Стоян Златев" class="rounded-xl shadow-lg mx-auto md:mx-0 w-64 h-64 object-cover" />
-      </div>
+  <!-- Hero Section -->
+  <section class="bg-blue-50 py-20 px-6 text-center fade-in">
+    <h1 class="text-4xl font-bold mb-4 text-gray-800">Здравей, аз съм Стоян 👋</h1>
+    <p class="text-lg max-w-2xl mx-auto text-gray-700">
+      Помагам на малки екипи да растат с ясна структура, а не с повече натоварване. С над 10 години опит в продажби, CRM и оптимизация на процеси, днес работя с екипи, които искат да се движат по-бързо – но и по-умно.
+    </p>
+  </section>
+
+  <!-- About Image + Bio -->
+  <section class="py-20 px-4 bg-white text-center fade-in">
+    <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
       <div>
-        <h2 class="text-3xl font-bold mb-4">Кой стои зад Zlatev Consulting?</h2>
-        <p class="text-lg text-gray-700 mb-4">
-          Създадох Zlatev Consulting, за да помогна на малки екипи да изградят ясен и подреден търговски процес – без излишни разговори, сложни CRM системи или скъпи консултации.
+        <img src="/stoyan-zlatev.jpg" alt="Снимка на Стоян Златев" class="rounded-xl shadow-lg mx-auto w-64 h-64 object-cover">
+      </div>
+      <div class="text-left">
+        <h2 class="text-2xl font-semibold mb-4">Кой стои зад Zlatev Consulting?</h2>
+        <p class="mb-4 text-gray-700 leading-relaxed">
+          Създадох Zlatev Consulting, за да помагам на малки екипи да изградят ясен и подреден търговски процес – без излишни разговори, сложни CRM системи или скъпи консултации.
         </p>
-        <p class="text-lg text-gray-700">
-          Ако вашият екип работи в Excel или не използва пълноценно своя CRM, аз ще ви помогна да въведете ред, автоматизации и резултати.
+        <p class="text-gray-700">
+          Ако вашият екип работи в Excel или не използва пълноценно своя CRM, аз ще ви помогна да въведете ред, автоматизации и устойчив растеж.
         </p>
       </div>
     </div>
   </section>
 
+  <!-- Contact -->
+  <section class="py-16 px-4 bg-gray-100 text-center fade-in" id="contact">
+    <h3 class="text-2xl font-bold mb-4">Да поговорим за резултати</h3>
+    <p class="mb-2">Имейл: <a href="mailto:stoyan@zlatevconsulting.com" class="text-blue-600 underline">stoyan@zlatevconsulting.com</a></p>
+    <p>Телефон: <a href="tel:+359878884854" class="text-blue-600 underline">+359 87 888 4854</a></p>
+  </section>
+
   <!-- Footer -->
   <footer class="py-8 text-center">
+    <img src="/ZC%201.png" alt="Zlatev Consulting Logo" class="mx-auto h-16 mb-4">
     <p class="text-sm text-gray-500">© 2025 Zlatev Consulting. Всички права запазени.</p>
   </footer>
 
