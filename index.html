@@ -70,11 +70,6 @@
   <!-- Footer -->
   <footer class="py-6 text-center" data-aos="fade-up">
     <img src="/ZC%201.png" alt="Zlatev Consulting Logo" class="h-16 mx-auto" />
-    <!-- Live Exchange Rates -->
-<section id="rates" class="py-6 bg-white text-center text-sm text-gray-600">
-  <p id="exchangeRates">Loading live exchange rates...</p>
-</section>
-
   </footer>
 
   <!-- AOS Script -->
@@ -86,26 +81,6 @@
       once: true,
     });
   </script>
-  <script>
-  async function fetchRates() {
-    try {
-      const res = await fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,eur&vs_currencies=usd,eur');
-      const data = await res.json();
-      const eurToUsd = data.eur.usd.toFixed(3);
-      const btcToEur = data.bitcoin.eur.toLocaleString('en-US', { maximumFractionDigits: 0 });
-      const btcToUsd = data.bitcoin.usd.toLocaleString('en-US', { maximumFractionDigits: 0 });
-
-      document.getElementById("exchangeRates").innerHTML = `
-        💶 1 EUR = $${eurToUsd} USD<br>
-        ₿ 1 BTC = €${btcToEur} / $${btcToUsd}
-      `;
-    } catch (err) {
-      document.getElementById("exchangeRates").innerText = "Exchange rates unavailable at the moment.";
-    }
-  }
-
-  fetchRates();
-</script>
 
 </body>
 </html>
