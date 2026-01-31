@@ -154,11 +154,11 @@
         );
         const data = await res.json();
 
-        document.getElementById("btc").innerText =
-          data.bitcoin.usd.toLocaleString() + " USD";
+      document.getElementById("btc").innerText =
+  Math.round(data.bitcoin.usd).toLocaleString() + " USD";
 
-        document.getElementById("gold").innerText =
-          data["pax-gold"].usd.toLocaleString() + " USD";
+document.getElementById("gold").innerText =
+  Math.round(data["pax-gold"].usd).toLocaleString() + " USD";
 
       } catch (e) {
         document.getElementById("btc").innerText = "error";
