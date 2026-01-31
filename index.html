@@ -82,5 +82,30 @@
       once: true,
     });
   </script>
+  <div>
+  <h3>Daily Prices</h3>
+  <ul>
+    <li>Bitcoin: <span id="btc">loading...</span></li>
+  </ul>
+</div>
+
+<script>
+async function loadBTC() {
+  try {
+    const res = await fetch(
+      "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd"
+    );
+    const data = await res.json();
+    document.getElementById("btc").innerText =
+      data.bitcoin.usd + " USD";
+  } catch (e) {
+    document.getElementById("btc").innerText = "error";
+    console.error(e);
+  }
+}
+
+loadBTC();
+</script>
+
 </body>
 </html>
